@@ -161,7 +161,7 @@ that *heal themselves* before anyone notices they're broken.
 ## ⚡ Latest Activity
 
 <!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
+<!--END_SECTION:activity  -->
 
 ---
 
