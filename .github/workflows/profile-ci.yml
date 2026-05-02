@@ -1,0 +1,45 @@
+name: Profile CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: "0 6 * * 1"   # Runs every Monday at 6 AM UTC
+  workflow_dispatch:        # Allows manual trigger from GitHub UI
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Validate Profile README
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check README exists
+        run: |
+          if [ ! -f README.md ]; then
+            echo "ERROR: README.md not found!"
+            exit 1
+          fi
+          echo "README.md found!"
+
+      - name: Validate all image links in README
+        run: |
+          echo "Scanning README for broken image links..."
+          grep -oP '(?<=src=")[^"]+' README.md | while read url; do
+            STATUS=$(curl -o /dev/null -s -w "%{http_code}" "$url")
+            if [ "$STATUS" -ne 200 ]; then
+              echo "WARN: $url returned $STATUS"
+            else
+              echo "OK: $url"
+            fi
+          done
+          echo "Link check complete!"
+
+      - name: Profile README is valid
+        run: echo "Profile README passed all checks!"
