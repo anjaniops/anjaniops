@@ -2,7 +2,7 @@
 
 # Hello Dosto 👋 I'm Anjani Kumar
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=500&lines=DevOps+Engineer;AWS+%7C+Kubernetes+%7C+CI%2FCD;Building+AI+Automation+Systems;40%25+Fewer+Incidents+%7C+99.8%25+Uptime)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=500&lines=System+Engineer+%E2%86%92+DevOps+Engineer;AWS+%7C+Kubernetes+%7C+CI%2FCD;Building+in+Public+%7C+%2390DaysOfDevOps;TrainWithShubham+Certified)](https://git.io/typing-svg)
 
 [![Profile CI](https://github.com/anjaniops/anjaniops/actions/workflows/profile-ci.yml/badge.svg)](https://github.com/anjaniops/anjaniops/actions/workflows/profile-ci.yml)
 [![Snake Animation](https://github.com/anjaniops/anjaniops/actions/workflows/snake.yml/badge.svg)](https://github.com/anjaniops/anjaniops/actions/workflows/snake.yml)
@@ -14,79 +14,51 @@
 
 ## 🚀 About Me
 
-🔥 I don't just manage servers — I **make them bulletproof.**
+🔥 I support infrastructure where downtime has real consequences.
 
-With **2+ years** battle-testing infrastructure at **ONGC (Oil & Gas)** and **BEL (Defence)** —
-industries where a single minute of downtime has real consequences — I've learned that
+With **3+ years** in IT infrastructure at **ONGC (Oil & Gas)** and **BEL (Defence)** —
+environments where a single minute of downtime matters — I've learned that
 **reliability isn't optional. It's everything.**
 
-I cut incidents by **40%**, saved **15+ hours a week** through automation, and kept systems
-running at **99.8% uptime** across 15 environments. Not by luck — by building systems
-that *heal themselves* before anyone notices they're broken.
+I'm currently a **System Engineer transitioning into DevOps**, building hands-on
+skills through certification, daily practice, and public learning.
 
 > ⚙️ *"Manual work is the enemy. Automation is the answer."*
 
-- 🔭 Currently engineering at **Exint Solutions** — keeping 50+ production servers alive & optimised
-- 🤖 Building **AI Automation Systems** with Python & LLM Agents
-- 🌱 Always levelling up in **Kubernetes**, **Cloud-Native**, and **DevSecOps**
+- 🔭 Currently engineering at **Exint Solutions** — supporting 50+ production servers across Linux & Windows
+- 🎓 **TrainWithShubham DevOps Certified** — GitOps, CI/CD, Kubernetes, Terraform
+- 🌱 Documenting my DevOps journey daily via **#90DaysOfDevOps**
 - 👯 Open to collaborating on **open-source DevOps tools** and **cloud infra projects**
-- 💬 Talk to me about **AWS · Kubernetes · Docker · Terraform · Python · Grafana · ELK Stack**
+- 💬 Talk to me about **AWS · Linux · Bash · Networking · Docker · Kubernetes (learning)**
 - 📫 **anjanikumar7973@gmail.com**
-- ⚡ I once automated a 3-hour daily task down to **20 minutes** using a Bash script. That's the kind of engineer I am.
-
----
-
-## 📊 Impact at a Glance
-
-| 🔻 Incidents Reduced | ⏱️ Hours Saved/Week | 🟢 Uptime | ⚡ Boot Speed | 🖥️ Servers | ✅ SLA |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| **40%** (12 → 7/mo) | **15+ hrs** | **99.8%** | **35% faster** | **50+** | **95% < 2hrs** |
+- ⚡ I automated a 3-hour daily health-check task down to **20 minutes** using a Bash script
 
 ---
 
 ## 🛠️ Tech Stack
 
-### **Cloud & Infrastructure**
+### **Currently Using**
 <p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-plain-wordmark.svg" alt="ubuntu" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/windows8/windows8-original.svg" alt="windows" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="github" width="40" height="40"/>
 </p>
 
-### **Containers & Orchestration**
+### **Currently Building / Learning**
 <p align="left">
   <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/>
-</p>
-
-### **IaC, Automation & CI/CD**
-<p align="left">
   <img src="https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg" alt="terraform" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/>
   <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="github" width="40" height="40"/>
   <img src="https://www.vectorlogo.zone/logos/ansible/ansible-icon.svg" alt="ansible" width="40" height="40"/>
-</p>
-
-### **Languages & AI**
-<p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
 </p>
 
-### **Monitoring & Observability**
+### **Networking**
 <p align="left">
-  <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="elasticsearch" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/prometheusio/prometheusio-icon.svg" alt="prometheus" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/elasticco_kibana/elasticco_kibana-icon.svg" alt="kibana" width="40" height="40"/>
-</p>
-
-### **Networking & Security**
-<p align="left">
-  <img src="https://www.vectorlogo.zone/logos/cloudflare/cloudflare-icon.svg" alt="cloudflare" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/>
 </p>
 
@@ -95,10 +67,10 @@ that *heal themselves* before anyone notices they're broken.
 ## 💼 Experience
 
 **🏢 Exint Solutions Pvt. Ltd.** — *System Engineer* | `Mar 2025 – Present · Noida`
-> Reduced server downtime by **40%** · Automated health checks (3hrs → 20min) · 99.8% uptime across 15+ client environments
+> Supporting 50+ Linux/Windows production servers · System monitoring & troubleshooting · Bash automation for health checks · AWS infrastructure basics (VPC, EC2, S3, IAM)
 
 **🏢 Hexxa Geo Systems Integrators** — *System Engineer (ONGC & BEL)* | `Oct 2023 – Mar 2025 · Delhi`
-> 200+ camera EACS for ONGC · 35% faster boot on 50+ servers · 95% SLA compliance under 2hr resolution
+> Deployed & maintained ONGC's 200+ camera EACS surveillance system · 24/7 availability, zero downtime incidents during tenure · Tier-2/3 support for BEL's access control systems
 
 **🏢 Bharat Electronics Limited (BEL)** — *Apprentice* | `Jan 2022 – Feb 2023 · Bengaluru`
 > Technical apprenticeship at PDIC — defence electronics & production testing
@@ -109,9 +81,6 @@ that *heal themselves* before anyone notices they're broken.
 
 [![shell-scripts](https://github-readme-stats.vercel.app/api/pin/?username=anjaniops&repo=shell-scripts&theme=tokyonight&hide_border=true)](https://github.com/anjaniops/shell-scripts)
 [![90DaysOfDevOps](https://github-readme-stats.vercel.app/api/pin/?username=anjaniops&repo=90DaysOfDevOps&theme=tokyonight&hide_border=true)](https://github.com/anjaniops/90DaysOfDevOps)
-
-[![python-for-devops](https://github-readme-stats.vercel.app/api/pin/?username=anjaniops&repo=python-for-devops&theme=tokyonight&hide_border=true)](https://github.com/anjaniops/python-for-devops)
-[![node_hotals](https://github-readme-stats.vercel.app/api/pin/?username=anjaniops&repo=node_hotals&theme=tokyonight&hide_border=true)](https://github.com/anjaniops/node_hotals)
 
 ---
 
@@ -178,7 +147,7 @@ that *heal themselves* before anyone notices they're broken.
 
 <div align="center">
 
-### 💡 "Building scalable, self-healing infrastructure — one automation at a time ⚙️"
+### 💡 "Reliability isn't optional. Building DevOps skills, one day at a time ⚙️"
 
 ![Profile Views](https://komarev.com/ghpvc/?username=anjaniops&color=brightgreen&style=flat-square)
 [![GitHub followers](https://img.shields.io/github/followers/anjaniops?label=Follow&style=social)](https://github.com/anjaniops)
