@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Anjani Kumar • System Engineer → DevOps Engineer</title>
+<meta name="description" content="Anjani Kumar - System Engineer → DevOps Engineer | AWS, Kubernetes, Terraform, CI/CD, SRE | 3+ Yrs IT infrastructure experience." />
+<meta name="theme-color" content="#0a0d12" />
+<link rel="preconnect" href="https://github-readme-stats.vercel.app" />
+<link rel="preconnect" href="https://github-readme-streak-stats.herokuapp.com" />
+<link rel="dns-prefetch" href="https://github-readme-stats.vercel.app" />
+<link rel="dns-prefetch" href="https://github-readme-streak-stats.herokuapp.com" />
+<script>
+(function(){
+  try{
+    const saved = localStorage.getItem('portfolio-theme');
+    const prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+    document.documentElement.setAttribute('data-theme', saved || (prefersLight ? 'light' : 'dark'));
+  }catch(e){}
+})();
+</script>
+
+<style>
+:root{
+  --bg:#0a0d12;
+  --bg-alt:#0e1218;
+  --panel:#11161d;
+  --border:#232a35;
+  --text:#c8d1dc;
+  --text-dim:#6b7789;
+  --amber:#ffb454;
+  --green:#7ee787;
+  --blue:#79c0ff;
+  --red:#ff6b6b;
+  --mono: 'SF Mono', 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace;
+}
+[data-theme="light"]{
+  --bg:#f5f6f8;
+  --bg-alt:#eceef2;
+  --panel:#ffffff;
+  --border:#dbdfe6;
+  --text:#1c2430;
+  --text-dim:#5b6472;
+  --amber:#c9791a;
+  --green:#1a8a4a;
+  --blue:#1868c9;
+  --red:#c9392f;
+}
+body{transition:background-color .25s ease, color .25s ease}
+.theme-toggle{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:6px 12px;border-radius:8px;border:1px solid var(--border);
+  background:var(--bg-alt);color:var(--text-dim);cursor:pointer;
+  font-family:var(--mono);font-size:12px;transition:.2s;
+}
+.theme-toggle:hover{border-color:var(--amber);color:var(--amber)}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--mono);
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.6;
+  font-size:15px;
+}
+::selection{background:var(--amber);color:#0a0d12}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+
+.container{width:min(880px,92vw);margin:auto}
+
+/* ===== NAV ===== */
+nav{
+  position:sticky;top:0;z-index:50;
+  background:rgba(10,13,18,.9);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--border);
+}
+.nav-wrap{display:flex;justify-content:space-between;align-items:center;padding:16px 0}
+.logo{font-size:14px;color:var(--text)}
+.logo .sym{color:var(--amber)}
+.links{display:flex;gap:24px}
+.links a{
+  font-size:13px;color:var(--text-dim);text-decoration:none;transition:.2s;
+}
+.links a:hover{color:var(--green)}
+.links a::before{content:"./";color:var(--text-dim);opacity:.5}
+
+/* ===== HERO / TERMINAL ===== */
+.hero{padding:70px 0 50px}
+.term{
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:10px;
+  overflow:hidden;
+  box-shadow:0 30px 70px rgba(0,0,0,.5);
+}
+.term-bar{
+  display:flex;align-items:center;gap:8px;
+  padding:10px 14px;
+  background:#0d1117;
+  border-bottom:1px solid var(--border);
+}
+.dot{width:11px;height:11px;border-radius:50%}
+.dot.r{background:#ff5f56}
+.dot.y{background:#ffbd2e}
+.dot.g{background:#27c93f}
+.term-title{margin-left:10px;font-size:12px;color:var(--text-dim)}
+.term-body{padding:26px 28px 30px;font-size:14px}
+.line{margin-bottom:6px;white-space:pre-wrap}
+.prompt{color:var(--green)}
+.prompt-path{color:var(--blue)}
+.cmd{color:var(--text)}
+.out{color:var(--text-dim);margin-left:0}
+.out .hl{color:var(--amber)}
+.cursor{display:inline-block;width:8px;height:16px;background:var(--amber);vertical-align:middle;animation:blink 1s step-end infinite}
+@keyframes blink{50%{opacity:0}}
+@media (prefers-reduced-motion: reduce){.cursor{animation:none}}
+
+.hero-title{
+  margin-top:34px;
+  font-size:clamp(24px,4vw,32px);
+  font-weight:700;color:#fff;
+}
+.hero-title .amber{color:var(--amber)}
+.hero-sub{margin-top:12px;color:var(--text-dim);max-width:640px;font-size:14px}
+.hero-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.tag{
+  font-size:12px;padding:5px 10px;border:1px solid var(--border);
+  border-radius:6px;color:var(--text-dim);background:var(--bg-alt);
+}
+.hero-cta{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:11px 18px;border-radius:8px;font-size:13px;font-weight:600;
+  text-decoration:none;border:1px solid var(--border);transition:.2s;
+}
+.btn.primary{background:var(--amber);color:#0a0d12;border-color:var(--amber)}
+.btn.primary:hover{background:#ffc673}
+.btn.ghost{color:var(--text);background:transparent}
+.btn.ghost:hover{border-color:var(--green);color:var(--green)}
+
+/* ===== SECTION SHELL ===== */
+.section{padding:56px 0;border-top:1px solid var(--border)}
+.section-head{display:flex;align-items:baseline;gap:10px;margin-bottom:28px}
+.section-head .idx{color:var(--text-dim);font-size:13px}
+.section-head h2{font-size:18px;color:#fff;font-weight:700}
+.section-head .rule{flex:1;height:1px;background:var(--border)}
+
+/* ===== ABOUT ===== */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media(max-width:700px){.about-grid{grid-template-columns:1fr}}
+.card{
+  background:var(--panel);border:1px solid var(--border);border-radius:10px;
+  padding:20px 22px;
+}
+.card h3{font-size:13px;color:var(--amber);margin-bottom:10px;font-weight:600}
+.card p{font-size:13.5px;color:var(--text-dim)}
+
+/* ===== SKILLS ===== */
+.skill-block{margin-bottom:18px}
+.skill-block .label{font-size:12px;color:var(--text-dim);margin-bottom:10px}
+.skill-block .label .k{color:var(--blue)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{
+  font-size:12.5px;padding:6px 11px;border-radius:6px;
+  border:1px solid var(--border);background:var(--panel);color:var(--text);
+}
+
+/* ===== EXPERIENCE ===== */
+.exp-item{
+  border-left:2px solid var(--border);
+  padding:2px 0 22px 22px;position:relative;
+}
+.exp-item::before{
+  content:"";position:absolute;left:-6px;top:4px;
+  width:10px;height:10px;border-radius:50%;
+  background:var(--bg);border:2px solid var(--green);
+}
+.exp-item:last-child{padding-bottom:0}
+.exp-role{font-size:14.5px;color:#fff;font-weight:600}
+.exp-meta{font-size:12.5px;color:var(--text-dim);margin:4px 0 8px}
+.exp-meta .co{color:var(--amber)}
+.exp-desc{font-size:13.5px;color:var(--text-dim)}
+.exp-desc li{margin-left:18px;margin-top:4px}
+
+/* ===== PROJECTS ===== */
+.proj-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media(max-width:700px){.proj-grid{grid-template-columns:1fr}}
+.proj{
+  background:var(--panel);border:1px solid var(--border);border-radius:10px;
+  padding:22px;display:flex;flex-direction:column;gap:10px;transition:.2s;
+}
+.proj:hover{border-color:var(--amber)}
+.proj-head{display:flex;justify-content:space-between;align-items:start}
+.proj h3{font-size:14.5px;color:#fff}
+.proj .day{font-size:11px;color:var(--text-dim);border:1px solid var(--border);padding:3px 7px;border-radius:5px;white-space:nowrap}
+.proj p{font-size:13px;color:var(--text-dim)}
+.proj .stack{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.proj .stack span{font-size:11px;color:var(--blue)}
+.proj .stack span::after{content:" ·";color:var(--text-dim)}
+.proj .stack span:last-child::after{content:""}
+.proj-link{font-size:12.5px;color:var(--green);text-decoration:none;margin-top:auto}
+.proj-link:hover{text-decoration:underline}
+
+/* ===== CONTACT ===== */
+.contact-card{
+  background:var(--panel);border:1px solid var(--border);border-radius:10px;
+  padding:32px;text-align:center;
+}
+.contact-card p{color:var(--text-dim);font-size:13.5px;max-width:520px;margin:0 auto 22px}
+.contact-links{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+
+footer{
+  padding:30px 0;text-align:center;color:var(--text-dim);font-size:12px;
+  border-top:1px solid var(--border);
+}
+footer .amber{color:var(--amber)}
+
+/* ===== TABLET ===== */
+@media(max-width:900px) and (min-width:601px){
+  .container{width:94vw}
+  .about-grid,.proj-grid{grid-template-columns:1fr 1fr}
+}
+
+/* ===== MOBILE ===== */
+@media(max-width:600px){
+  .nav-wrap{flex-direction:column;gap:10px;padding:12px 0}
+  .links{gap:14px;flex-wrap:wrap;justify-content:center}
+  .term-body{padding:18px 16px 22px;font-size:12.5px}
+  .line{word-break:break-word}
+  .hero{padding:40px 0 30px}
+  .hero-cta{flex-direction:column}
+  .hero-cta .btn{width:100%;justify-content:center}
+  .about-grid,.proj-grid{grid-template-columns:1fr}
+  .contact-links{flex-direction:column}
+  .contact-links .btn{width:100%;justify-content:center}
+  .section{padding:40px 0}
+  .exp-item{padding-left:16px}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="container nav-wrap">
+<div class="logo"><span class="sym">~</span>/anjaniops</div>
+<div class="links">
+<a href="#about">about</a>
+<a href="#skills">skills</a>
+<a href="#experience">experience</a>
+<a href="#education">education</a>
+<a href="#projects">projects</a>
+<a href="#contact">contact</a>
+<button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle day/night mode">🌙 night</button>
+</div>
+</div>
+</nav>
+
+<section class="hero">
+<div class="container">
+<div class="term">
+<div class="term-bar">
+<span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+<span class="term-title">anjani@devops:~</span>
+</div>
+<div class="term-body">
+<div class="line"><span class="prompt">anjani@devops</span><span class="prompt-path">:~$</span> <span class="cmd">whoami</span></div>
+<div class="line out">System Engineer, <span class="hl">3+ yrs</span> IT infrastructure — transitioning into DevOps & Cloud</div>
+<div class="line" style="margin-top:14px"><span class="prompt">anjani@devops</span><span class="prompt-path">:~$</span> <span class="cmd">cat background.txt</span></div>
+<div class="line out">Govt & defense sector experience — <span class="hl">ONGC</span>, <span class="hl">BEL</span> environments</div>
+<div class="line" style="margin-top:14px"><span class="prompt">anjani@devops</span><span class="prompt-path">:~$</span> <span class="cmd">echo $STATUS</span><span class="cursor"></span></div>
+</div>
+</div>
+
+<h1 class="hero-title">Infrastructure fails because of <span class="amber">manual processes</span>, not scale limits.</h1>
+<p class="hero-sub">System Engineer → DevOps Engineer. 3+ years across ONGC oil & gas and BEL Defense environments — where downtime impacts real operations. Now building AWS, Kubernetes, Terraform, and CI/CD hands-on, documented daily.</p>
+
+<div class="hero-tags">
+<span class="tag">AWS</span><span class="tag">Kubernetes</span><span class="tag">Terraform</span>
+<span class="tag">CI/CD</span><span class="tag">SRE</span><span class="tag">3+ Yrs IT</span>
+</div>
+
+<div class="hero-cta">
+<a href="https://github.com/anjaniops" target="_blank" rel="noopener noreferrer" class="btn primary">→ github.com/anjaniops</a>
+<a href="https://www.linkedin.com/in/anjaniops" target="_blank" rel="noopener noreferrer" class="btn ghost">→ LinkedIn</a>
+<a href="https://drive.google.com/file/d/1l_Bj24SltEBuL_6vvn8cMiouKH9RJnrt/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="btn ghost">→ Resume (PDF)</a>
+</div>
+</div>
+</section>
+
+<section id="about" class="section">
+<div class="container">
+<div class="section-head"><span class="idx">01</span><h2>about.md</h2><span class="rule"></span></div>
+<div class="about-grid">
+<div class="card">
+<h3># current role</h3>
+<p>System Engineer at Exint Solutions Private Limited, Noida — supporting IT infrastructure across 50+ Linux and Windows production servers. System design, infrastructure monitoring, security management, and incident troubleshooting across enterprise IT environments.</p>
+</div>
+<div class="card">
+<h3># what sets me apart</h3>
+<p>3+ years in ONGC oil & gas and BEL Defense environments — where downtime impacts real operations, not just SLAs on paper.</p>
+</div>
+<div class="card">
+<h3># what I've done</h3>
+<p>Automated routine health checks and maintenance using Bash, reducing manual effort. Supported backup, disaster recovery, and system upgrades for production infrastructure. Resolved critical incidents through structured troubleshooting.</p>
+</div>
+<div class="card">
+<h3># actively building</h3>
+<p>AWS · Docker · Kubernetes · Terraform · Jenkins · GitHub Actions · Helm · ArgoCD · GitOps · DevSecOps — documented via a 90-day hands-on challenge (see Projects). Open to Junior DevOps, Cloud Engineer, and SRE roles, in India or remote.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="skills" class="section">
+<div class="container">
+<div class="section-head"><span class="idx">02</span><h2>skills.yaml</h2><span class="rule"></span></div>
+
+<div class="skill-block">
+<div class="label"><span class="k">top skills (LinkedIn):</span></div>
+<div class="chips">
+<span class="chip">Kubernetes</span><span class="chip">Amazon Web Services (AWS)</span>
+<span class="chip">CI/CD Pipelines</span><span class="chip">Terraform</span>
+<span class="chip">Site Reliability Engineering</span>
+</div>
+</div>
+
+<div class="skill-block">
+<div class="label"><span class="k">current stack (on the job):</span></div>
+<div class="chips">
+<span class="chip">Linux (Ubuntu/RHEL)</span><span class="chip">Bash</span><span class="chip">DNS</span>
+<span class="chip">VPC</span><span class="chip">Firewall Management</span><span class="chip">Networking</span>
+<span class="chip">System Administration</span><span class="chip">Grafana</span>
+</div>
+</div>
+
+<div class="skill-block">
+<div class="label"><span class="k">cloud (AWS):</span></div>
+<div class="chips">
+<span class="chip">EC2</span><span class="chip">S3</span><span class="chip">IAM</span>
+<span class="chip">VPC</span><span class="chip">Security Groups</span>
+</div>
+</div>
+
+<div class="skill-block">
+<div class="label"><span class="k">building (90-day hands-on challenge):</span></div>
+<div class="chips">
+<span class="chip">Docker</span><span class="chip">Kubernetes</span><span class="chip">Terraform</span>
+<span class="chip">Jenkins</span><span class="chip">GitHub Actions</span><span class="chip">Helm</span>
+<span class="chip">ArgoCD</span><span class="chip">GitOps</span><span class="chip">DevSecOps</span>
+</div>
+</div>
+
+<p style="font-size:12px;color:var(--text-dim);margin-top:4px">41 skills listed on <a href="https://www.linkedin.com/in/anjaniops" target="_blank" rel="noopener noreferrer" style="color:var(--green)">LinkedIn →</a></p>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<div class="section-head"><span class="idx">03</span><h2>github-stats.png</h2><span class="rule"></span></div>
+<div class="card" style="text-align:center;overflow-x:auto">
+<img loading="lazy" src="https://github-readme-stats.vercel.app/api?username=anjaniops&show_icons=true&theme=dark&bg_color=11161d&border_color=232a35&title_color=ffb454&icon_color=7ee787&text_color=c8d1dc" alt="Anjani's GitHub stats" style="max-width:100%;margin-bottom:14px" />
+<br/>
+<img loading="lazy" src="https://github-readme-streak-stats.herokuapp.com/?user=anjaniops&theme=dark&background=11161d&border=232a35&ring=ffb454&fire=ffb454&currStreakLabel=7ee787" alt="Anjani's GitHub streak" style="max-width:100%" />
+</div>
+</div>
+</section>
+
+<section id="experience" class="section">
+<div class="container">
+<div class="section-head"><span class="idx">04</span><h2>experience.log</h2><span class="rule"></span></div>
+
+<div class="exp-item">
+<div class="exp-role">System Engineer</div>
+<div class="exp-meta"><span class="co">Exint Solutions Private Limited</span> · Full-time · Mar 2025 – Present · Noida, UP · On-site</div>
+<p class="exp-desc" style="margin-bottom:8px">Supporting IT infrastructure across 50+ Linux and Windows production servers — system reliability, monitoring, and automation.</p>
+<ul class="exp-desc">
+<li>Monitored system performance using Grafana</li>
+<li>Automated daily health checks using Bash scripting</li>
+<li>Managed AWS infrastructure (VPC, EC2, S3, IAM, security groups, DNS, firewalls)</li>
+<li>Resolved incidents through structured troubleshooting</li>
+<li>Performed backup, disaster recovery, and system upgrades</li>
+<li>Maintained documentation and security compliance</li>
+</ul>
+</div>
+
+<div class="exp-item">
+<div class="exp-role">System Engineer</div>
+<div class="exp-meta"><span class="co">Hexxa Geo Systems Integrators Pvt Ltd</span> · Full-time · Oct 2023 – Mar 2025 · ONGC Office, Delhi · On-site</div>
+<p class="exp-desc" style="margin-bottom:8px">Client Projects: ONGC (Scope Minar, New Delhi), BEL</p>
+<ul class="exp-desc">
+<li>Deployed and maintained ONGC's 200+ camera EACS surveillance system at Scope Minar, achieving 24/7 availability for a high-security government site with zero reported downtime incidents during tenure</li>
+<li>Configured and maintained Linux and Windows servers for BEL's access control systems, optimizing system performance and startup processes</li>
+<li>Provided Tier-2/3 on-site support, resolving server issues within defined SLA timelines</li>
+</ul>
+</div>
+
+<div class="exp-item">
+<div class="exp-role">Apprentice Training</div>
+<div class="exp-meta"><span class="co">Bharat Electronics Limited</span> · Apprenticeship · Jan 2022 – Feb 2023 · Bengaluru, KA</div>
+<ul class="exp-desc">
+<li>Completed a 13-month technical apprenticeship at BEL PDIC, performing hands-on production testing of defence electronics systems</li>
+<li>First exposure to ISO-compliant QA procedures and mission-critical hardware reliability standards</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="education" class="section">
+<div class="container">
+<div class="section-head"><span class="idx">05</span><h2>education.log</h2><span class="rule"></span></div>
+
+<div class="exp-item">
+<div class="exp-role">Bachelor of Technology, Computer Science and Engineering</div>
+<div class="exp-meta"><span class="co">Bhabha University, Bhopal</span> · Nov 2023 – May 2026 · Grade: 8.03</div>
+<p class="exp-desc">Coursework in networking, operating systems, and C/C++ — completed alongside full-time IT infrastructure work at Hexxa Geo Systems and ONGC.</p>
+</div>
+
+<div class="exp-item">
+<div class="exp-role">Diploma, Computer Science and Engineering</div>
+<div class="exp-meta"><span class="co">Board of Technical Education, Uttar Pradesh (BTEUP)</span> · Aug 2018 – May 2021 · Grade: First</div>
+<p class="exp-desc">Foundational coursework in programming, networking, and hardware — led directly into the technical apprenticeship at BEL.</p>
+</div>
+</div>
+</section>
+
+<section id="certifications" class="section">
+<div class="container">
+<div class="section-head"><span class="idx">06</span><h2>certifications.log</h2><span class="rule"></span></div>
+<div class="card">
+<h3>DevOps Engineer Certification — TrainWithShubham</h3>
+<p style="margin-bottom:10px">Issued May 2026 · Credential ID HSDFVKNU</p>
+<p>GitOps-based deployment workflows · CI/CD automation using Jenkins and GitHub Actions · Infrastructure as Code with Terraform · Containerization with Docker and Kubernetes · Monitoring using Prometheus · Automation using Shell Scripting and Python · Deployment practices using Helm and ArgoCD</p>
+</div>
+</div>
+</section>
+
+<section id="projects" class="section">
+<div class="container">
+<div class="section-head"><span class="idx">07</span><h2>projects/</h2><span class="rule"></span></div>
+<div class="proj-grid">
+
+<div class="proj">
+<div class="proj-head">
+<h3>Flask + PostgreSQL Task Tracker</h3>
+<span class="day">Day 36</span>
+</div>
+<p>Full-stack task tracker deployed on EC2 with a multi-stage Dockerfile, Docker Compose with healthchecks (pg_isready + service_healthy), named volumes, a custom bridge network, non-root user, and .dockerignore.</p>
+<div class="stack"><span>Flask</span><span>PostgreSQL</span><span>Docker</span><span>EC2</span></div>
+<a href="https://github.com/anjaniops" target="_blank" rel="noopener noreferrer" class="proj-link">view on GitHub →</a>
+</div>
+
+<div class="proj">
+<div class="proj-head">
+<h3>Build → Test → Deploy CI/CD Pipeline</h3>
+<span class="day">Day 43</span>
+</div>
+<p>Multi-job GitHub Actions workflow using <code>needs</code> for job ordering, shared variables and job outputs, conditional steps, and parallel Lint + Test jobs feeding into a Summary job.</p>
+<div class="stack"><span>GitHub Actions</span><span>YAML</span><span>CI/CD</span></div>
+<a href="https://github.com/anjaniops" target="_blank" rel="noopener noreferrer" class="proj-link">view on GitHub →</a>
+</div>
+
+<div class="proj">
+<div class="proj-head">
+<h3>#90DaysOfDevOps Build Log</h3>
+<span class="day">ongoing</span>
+</div>
+<p>Daily documented practice — Linux, Docker multi-stage builds, Docker Compose, YAML, CI/CD fundamentals, GitHub Actions triggers, matrix builds, and runners. Real notes from real practice.</p>
+<div class="stack"><span>Docker</span><span>Kubernetes</span><span>GitHub Actions</span></div>
+<a href="https://github.com/anjaniops" target="_blank" rel="noopener noreferrer" class="proj-link">view build log →</a>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="contact" class="section">
+<div class="container">
+<div class="section-head"><span class="idx">08</span><h2>contact.sh</h2><span class="rule"></span></div>
+<div class="contact-card">
+<p>Open to System Engineer, Junior DevOps, and Cloud Support roles. Based in the NCR region, open to relocation and remote opportunities.</p>
+<div class="contact-links">
+<a href="https://github.com/anjaniops" target="_blank" rel="noopener noreferrer" class="btn primary">→ GitHub</a>
+<a href="https://www.linkedin.com/in/anjaniops" target="_blank" rel="noopener noreferrer" class="btn ghost">→ LinkedIn</a>
+<a href="https://drive.google.com/file/d/1l_Bj24SltEBuL_6vvn8cMiouKH9RJnrt/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="btn ghost">→ Resume</a>
+<button id="copyEmailBtn" class="btn ghost" style="cursor:pointer;font-family:inherit" onclick="copyEmail()">→ Copy Email</button>
+</div>
+<p style="margin-top:14px;font-size:11px;color:var(--text-dim)">Prefer email? Hit the button below — it copies my address to your clipboard.</p>
+</div>
+</div>
+</section>
+
+<footer>
+<span class="amber">$</span> echo "built by Anjani Kumar" · <script>document.write(new Date().getFullYear())</script>
+</footer>
+
+<script>
+function copyEmail(){
+  const email = "anjanikumar7973@gmail.com";
+  navigator.clipboard.writeText(email).then(() => {
+    const btn = document.getElementById('copyEmailBtn');
+    const original = btn.textContent;
+    btn.textContent = "✓ Copied!";
+    setTimeout(() => { btn.textContent = original; }, 2000);
+  });
+}
+
+function applyTheme(theme){
+  document.documentElement.setAttribute('data-theme', theme);
+  const btn = document.getElementById('themeToggle');
+  if(btn) btn.textContent = theme === 'light' ? '☀️ day' : '🌙 night';
+  localStorage.setItem('portfolio-theme', theme);
+}
+function toggleTheme(){
+  const current = document.documentElement.getAttribute('data-theme') || 'dark';
+  applyTheme(current === 'light' ? 'dark' : 'light');
+}
+(function initTheme(){
+  const saved = localStorage.getItem('portfolio-theme');
+  const prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+  applyTheme(saved || (prefersLight ? 'light' : 'dark'));
+})();
+</script>
+</body>
+</html>
