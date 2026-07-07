@@ -200,6 +200,7 @@ Jan 2022 – Feb 2023
 
 ```text
 <!--START_SECTION:activity-->
+1. ❗ Opened issue [#1](https://github.com/anjaniops/github-actions-zero-to-hero/issues/1) in [anjaniops/github-actions-zero-to-hero](https://github.com/anjaniops/github-actions-zero-to-hero)
 <!--END_SECTION:activity-->
 ```
 
