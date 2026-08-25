@@ -29,7 +29,7 @@
 
 # 🚀 About Me
 
-I'm a **System Engineer** transitioning into **DevOps & Platform Engineering**, with **3+ years** of experience supporting mission-critical IT infrastructure across **ONGC (Oil & Gas)** and **BEL (Defence)** environments.
+I'm a **System Engineer** transitioning into **DevOps & Platform Engineering**, with **4 years** of experience supporting mission-critical IT infrastructure across **ONGC (Oil & Gas)** and **BEL (Defence)** environments.
 
 I enjoy building reliable cloud infrastructure, automating repetitive operations, and continuously improving deployment workflows using AWS, Kubernetes, Terraform, Docker, Linux and CI/CD.
 
