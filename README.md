@@ -2,7 +2,7 @@
 
 # 👋 Hi, I'm Anjani Kumar
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=2E9EF7&center=true&vCenter=true&width=700&lines=System+Engineer+→+DevOps+Engineer;AWS+|+Kubernetes+|+Terraform;Linux+|+Docker+|+CI%2FCD;Platform+Engineering+%26+AI+Automation+Learner;Building+%2390DaysOfDevOps;Open+to+DevOps+%26+Cloud+Opportunities)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=2E9EF7&center=true&vCenter=true&width=700&lines=DevOps+%26+Cloud+Engineer;AWS+|+Kubernetes+|+Terraform;Linux+|+Docker+|+CI%2FCD;4+Years+in+IT+Infrastructure;Building+%2390DaysOfDevOps+%26+%2310WeeksOfAWS;Open+to+DevOps+%2C+Cloud+%26+SRE+roles)](https://git.io/typing-svg)
 
 <p align="center">
   <img src="https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge&logo=amazonaws&logoColor=white"/>
@@ -29,40 +29,44 @@
 
 # 🚀 About Me
 
-I'm a **System Engineer** transitioning into **DevOps & Platform Engineering**, with **4 years** of experience supporting mission-critical IT infrastructure across **ONGC (Oil & Gas)** and **BEL (Defence)** environments.
+System Engineer moving into **DevOps & Cloud Engineering**, with **4 years** in IT infrastructure across **ONGC (Oil & Gas)**, **BEL (Defence)** and on-prem server operations.
 
-I enjoy building reliable cloud infrastructure, automating repetitive operations, and continuously improving deployment workflows using AWS, Kubernetes, Terraform, Docker, Linux and CI/CD.
+I like automating repetitive operations and building reliable delivery pipelines. My daily work is Linux/Windows servers, Grafana monitoring and Bash automation. My DevOps and AWS skills come from hands-on projects, all published here.
 
 - 🔭 System Engineer @ **Exint Solutions Pvt. Ltd.**
-- ☁ Working with **AWS, Linux, Docker, Kubernetes & Terraform**
 - 🎓 **TrainWithShubham DevOps Engineer Certified**
-- 🌱 Building publicly through **#90DaysOfDevOps**
-- 🚀 Learning **Platform Engineering, GitOps & AI Infrastructure**
-- 👯 Open to **DevOps, Cloud & Platform Engineering opportunities**
-- 💬 Ask me about **Linux, Bash, AWS, Kubernetes, Terraform & CI/CD**
-- ⚡ Automated a repetitive infrastructure health-check process from **3 hours to 20 minutes**
+- 📘 Preparing for **AWS SAA-C03**
+- 🌱 Building publicly through **#90DaysOfDevOps** and **#10WeeksOfAWS**
+- ⚡ Cut a daily server health-check from **3 hours to 20 minutes** with Bash
+- 👯 Open to **DevOps, Cloud, Platform and SRE roles**
+
+---
+
+# 🧪 Projects
+
+- **DevSecOps Banking App on AWS** (TrainWithShubham course project): Spring Boot app on EC2, 9-stage GitHub Actions pipeline (Gitleaks, Checkstyle, Semgrep, OWASP Dependency-Check, Maven, Trivy, ECR, Docker Compose deploy, OWASP ZAP), OIDC with no stored AWS keys, Secrets Manager.
+- **AWS Capstone: Retail Microservices, ECS Blue/Green**: ECS Fargate microservices, Cognito tenant isolation, SQS/DLQ worker, native ECS blue/green with alarm-based rollback.
+- **AWS Capstone: Event-Driven File Processing**: S3, EventBridge, SQS, Lambda, Step Functions, DynamoDB idempotency, SNS.
+- **[90DaysOfDevOps](https://github.com/anjaniops/90DaysOfDevOps)**: daily hands-on notes on Linux, Docker, Kubernetes, CI/CD, DevSecOps and Terraform.
+- **[10WeeksOfAWS](https://github.com/anjaniops/10WeeksOfAWS)**: IAM, Organizations/SCPs, VPC networking, GitHub-to-AWS OIDC.
+
+All capstones: [AWS-Zero-to-Hero-Capstone-Projects](https://github.com/anjaniops/AWS-Zero-to-Hero-Capstone-Projects)
 
 ---
 
 # 📜 Certifications
 
-- ✅ TrainWithShubham DevOps Engineer
-- ✅ AWS Cloud Practitioner *(if completed)*
-- 🎯 Preparing for CKA
-- 🎯 Platform Engineering Roadmap
+- ✅ TrainWithShubham DevOps Engineer (May 2026)
+- 🎯 Preparing for AWS Certified Solutions Architect Associate (SAA-C03)
 
 ---
 
 # 📚 Currently Learning
 
-- Kubernetes Advanced
-- Helm
-- ArgoCD
+- AWS (EC2, EBS, storage, databases)
+- Kubernetes (advanced)
+- Helm and ArgoCD
 - GitOps
-- Platform Engineering
-- AI Infrastructure
-- LLMOps
-- Go
 
 ---
 
@@ -70,71 +74,46 @@ I enjoy building reliable cloud infrastructure, automating repetitive operations
 
 ## Cloud & DevOps
 
-AWS • Linux • Docker • Kubernetes • Terraform • GitHub Actions • Jenkins • Helm
+AWS • Linux • Docker • Kubernetes • Terraform • GitHub Actions • Jenkins • Helm • ArgoCD • Trivy • Semgrep
 
-## Languages
+## Languages & Scripting
 
-Python • Bash • YAML
+Bash • Python • YAML • SQL
 
-## Monitoring
+## Monitoring & Databases
 
-Grafana • Prometheus • PostgreSQL
+Grafana • CloudWatch • SQL Server • Oracle • PostgreSQL
 
 ---
 
 # 💼 Experience
 
-## Exint Solutions Pvt Ltd
+## Exint Solutions Pvt. Ltd.
 
-**System Engineer**
+**System Engineer** | Mar 2025 – Present
 
-Mar 2025 – Present
-
-- Supporting Linux & Windows production servers
-- AWS Infrastructure (EC2, IAM, VPC, S3)
-- Bash Automation
-- Monitoring & Troubleshooting
-- Infrastructure Support
+- Supporting on-prem Windows/Linux servers
+- Grafana monitoring and Bash automation
+- SQL Server/Oracle backup, restore and maintenance
+- SP3D/SmartPlant Foundation setup, SPLM license management
 
 ---
 
-## Hexxa Geo Systems Integrators
+## Hexxa Geo Systems Integrators Pvt. Ltd.
 
-**System Engineer**
+**System Engineer** | Oct 2023 – Mar 2025
 
-Oct 2023 – Mar 2025
-
-- ONGC Electronic Access Control System
-- BEL Access Control Infrastructure
-- Production Support
-- Tier-2/Tier-3 Troubleshooting
+- ONGC 200+ camera EACS surveillance system (Scope Minar, New Delhi)
+- BEL access control servers (Linux/Windows)
+- Tier-2/3 on-site support within SLA
 
 ---
 
-## Bharat Electronics Limited
+## Bharat Electronics Limited (BEL PDIC)
 
-**Graduate Apprentice**
+**Apprentice Trainee** | Jan 2022 – Feb 2023
 
-Jan 2022 – Feb 2023
-
-- Defence Electronics
-- Production Testing
-
----
-
-# 📂 Featured Projects
-
-⭐ 90DaysOfDevOps
-
-⭐ AWS Terraform Infrastructure
-
-⭐ Kubernetes Labs
-
-⭐ Docker Projects
-
-⭐ Bash Automation Scripts
-
-⭐ GitHub Actions CI/CD
+- 13-month apprenticeship, production testing of defence electronics
 
 ---
 
